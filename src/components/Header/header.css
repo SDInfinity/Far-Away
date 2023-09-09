@@ -1,0 +1,13 @@
+.header {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .header h1 {
+    font-size: 5.5rem;
+  }
+
+  span {
+    display: none;
+  }
+}
