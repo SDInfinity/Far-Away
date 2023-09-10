@@ -49,12 +49,20 @@ input[type="checkbox"] {
   border: none;
   font-size: 1.8rem;
   padding: 0.8rem;
-  transform: translateY(2px);
+}
+
+@media screen and (max-width: 1080px) {
+  .list li button {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 936px) {
   .list ul {
     grid-template-columns: 250px 250px 250px;
+  }
+  .list li button {
+    margin-bottom: 20px;
   }
 }
 
