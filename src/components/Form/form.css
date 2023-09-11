@@ -1,34 +1,43 @@
 .add-form {
   background-color: #e5771f;
-  padding: 2.8rem 2.8rem;
+  padding: 3.2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.8rem;
+  gap: 1.5rem;
+}
+
+button,
+select,
+input {
+  background-color: #ffebb3;
+  color: #5a3e2b;
+  font-family: inherit;
+  border: none;
+  border-radius: 10rem;
+  padding: 1.2rem 3.2rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .add-form h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-@media screen and (max-width: 1080px) {
+.add-form button {
+  text-transform: uppercase;
+  background-color: #76c7ad;
+}
+
+@media screen and (max-width: 760px) {
   .add-form h3 {
     font-size: 2.5rem;
   }
 
   .add-form {
     flex-direction: column;
-  }
-
-  .add-form input,
-  select,
-  button {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .add-form {
     align-items: flex-start;
+    gap: 2.8rem;
   }
 }
