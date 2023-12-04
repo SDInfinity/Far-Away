@@ -2,7 +2,7 @@
 
 Far Away is a simple and intuitive React app designed to help you keep track of items while traveling by creating and managing a packing list. Whether you're planning a vacation, a weekend getaway, or a business trip, Far Away makes it easy to stay organized and ensure you don't forget anything important.
 
-## Preview the Live Site
+## Preview of Live Site
 
 ![Screenshot (49)](https://github.com/SDInfinity/Far-Away/assets/102734212/80d9117b-c479-4899-a059-2fd720d37590)
 
